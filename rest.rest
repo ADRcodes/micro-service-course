@@ -1,0 +1,44 @@
+###
+### GET Request
+###
+
+GET http://localhost:3000
+
+###
+
+###
+### POST Request
+###
+
+POST https://api.example.com/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "secret"
+}
+
+###
+
+###
+### PUT Request
+###
+
+PUT https://api.example.com/users/123
+Content-Type: application/json
+
+{
+  "name": "Updated Name",
+  "email": "updatedemail@example.com"
+}
+
+###
+
+###
+### DELETE Request
+###
+
+DELETE https://api.example.com/users/123
+
+###
