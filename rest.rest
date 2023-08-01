@@ -10,13 +10,14 @@ GET http://localhost:3000
 ### POST Request
 ###
 
-POST https://api.example.com/users
+POST http://localhost:3000/reservations
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "johndoe@example.com",
-  "password": "secret"
+  "startDate": "12/20/2022",
+  "endDate": "12/25/2022",
+  "placeId": "12345",
+  "invoiceId": "493",
 }
 
 ###
